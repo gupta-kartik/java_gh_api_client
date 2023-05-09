@@ -1,0 +1,14 @@
+
+
+# CodespacesListRepoSecrets200Response
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**totalCount** | **Integer** |  |  |
+|**secrets** | [**List&lt;RepoCodespacesSecret&gt;**](RepoCodespacesSecret.md) |  |  |
+
+
+

@@ -1,0 +1,36 @@
+
+
+# Team1
+
+Groups of organization members that gives permissions on specified repositories.
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**deleted** | **Boolean** |  |  [optional] |
+|**description** | **String** | Description of the team |  |
+|**htmlUrl** | **URI** |  |  |
+|**id** | **Integer** | Unique identifier of the team |  |
+|**membersUrl** | **String** |  |  |
+|**name** | **String** | Name of the team |  |
+|**nodeId** | **String** |  |  |
+|**parent** | [**Team1Parent**](Team1Parent.md) |  |  [optional] |
+|**permission** | **String** | Permission that the team will have for its repositories |  |
+|**privacy** | [**PrivacyEnum**](#PrivacyEnum) |  |  |
+|**repositoriesUrl** | **URI** |  |  |
+|**slug** | **String** |  |  |
+|**url** | **URI** | URL for the team |  |
+
+
+
+## Enum: PrivacyEnum
+
+| Name | Value |
+|---- | -----|
+| OPEN | &quot;open&quot; |
+| CLOSED | &quot;closed&quot; |
+| SECRET | &quot;secret&quot; |
+
+
+
